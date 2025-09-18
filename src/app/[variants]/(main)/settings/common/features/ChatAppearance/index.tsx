@@ -127,7 +127,7 @@ const ChatAppearance = memo(() => {
         children: (
           <Select
             options={highlighterThemes.map((item) => ({
-              label: item.displayName,
+              label: item.displayName === 'Lobe Theme' ? 'ImoogleAI Theme' : item.displayName,
               value: item.id,
             }))}
           />
@@ -143,7 +143,7 @@ const ChatAppearance = memo(() => {
         children: (
           <Select
             options={mermaidThemes.map((item) => ({
-              label: item.displayName,
+              label: item.displayName === 'Lobe Theme' ? 'ImoogleAI Theme' : item.displayName,
               value: item.id,
             }))}
           />
