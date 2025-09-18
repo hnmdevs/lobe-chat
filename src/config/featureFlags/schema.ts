@@ -39,7 +39,7 @@ export const FeatureFlagsSchema = z.object({
 
   // the flags below can only be used with commercial license
   // if you want to use it in the commercial usage
-  // please contact us for more information: hello@lobehub.com
+  // please contact us for more information: info@imoogleai.xyz
   commercial_hide_github: z.boolean().optional(),
   commercial_hide_docs: z.boolean().optional(),
 });
@@ -81,7 +81,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
 
   // the flags below can only be used with commercial license
   // if you want to use it in the commercial usage
-  // please contact us for more information: hello@lobehub.com
+  // please contact us for more information: info@imoogleai.xyz
   commercial_hide_github: false,
   commercial_hide_docs: false,
 };
